@@ -101,7 +101,7 @@ a { text-decoration: none; color: inherit; }
   background-position:center;
 }
 .gallery-one { background: linear-gradient(rgba(17,58,143,.15), rgba(17,58,143,.15)), url('residencia 1.jpg') center/contain no-repeat, #dbe7ff; }
-.gallery-two { background: linear-gradient(rgba(214,29,54,.10), rgba(214,29,54,.10)), url('Mantenimientoaire6.jpg') center/contain no-repeat, #f4f7fb; }
+.gallery-two { background: linear-gradient(rgba(214,29,54,.10), rgba(214,29,54,.10)), url('Mantenimiento 6.jpg') center/contain no-repeat, #f4f7fb; }
 .gallery-three { background: linear-gradient(rgba(8,29,79,.16), rgba(8,29,79,.16)), url('logo-clima-electricidad.jpg') center/contain no-repeat, #d9eefc; }
 .gallery-four { background: linear-gradient(rgba(26,86,214,.10), rgba(26,86,214,.10)), url('logo-clima-electricidad.jpg') center/contain no-repeat, #eef4ff; }
 .gallery-content { padding:1.2rem; }
