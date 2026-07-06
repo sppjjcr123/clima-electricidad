@@ -19,6 +19,26 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
 </head>
+
+  
+<script>
+document.querySelector(".contact-form").addEventListener("submit", async function(e) {
+    e.preventDefault();
+
+    const form = this;
+    const data = new FormData(form);
+
+    await fetch(form.action, {
+        method: "POST",
+        body: data
+    });
+
+    document.getElementById("mensaje-enviado").style.display = "block";
+    form.reset();
+});
+</script>
+
+  
 <body>
   
 
@@ -259,6 +279,11 @@
     </section>
   </main>
 
+<div id="mensaje-enviado" style="display:none; color:white; margin-top:15px; font-weight:bold;">
+✅ Gracias por contactarnos. Hemos recibido tu solicitud y te responderemos pronto.
+</div>
+
+  
   <footer class="footer">
     <div class="container footer-content">
       <p>© 2026 Clima y Electricidad. Todos los derechos reservados.</p>
