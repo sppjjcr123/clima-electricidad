@@ -139,3 +139,14 @@ a { text-decoration: none; color: inherit; }
   .menu { display:none; }
   .hero-grid, .about-grid, .map-grid, .contact-grid, .cards, .stats, .gallery-grid { grid-template-columns:1fr; }
 }
+
+
+#google_translate_element {
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    z-index: 9999;
+    background: white;
+    padding: 5px;
+    border-radius: 5px;
+}
