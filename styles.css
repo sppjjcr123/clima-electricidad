@@ -141,12 +141,19 @@ a { text-decoration: none; color: inherit; }
 }
 
 
+
 #google_translate_element {
-    position: fixed;
-    top: 15px;
-    right: 15px;
-    z-index: 9999;
-    background: white;
-    padding: 5px;
-    border-radius: 5px;
+  margin-left: 15px;
+  z-index: 9999;
+}
+
+.goog-te-gadget {
+  font-family: Arial, sans-serif !important;
+  font-size: 12px !important;
+}
+
+.goog-te-combo {
+  padding: 6px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
 }
